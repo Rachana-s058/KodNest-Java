@@ -1,5 +1,5 @@
 
-public class P2 {
+public class P5 {
 
     public static void main(String[] args) {
         // write your code here
