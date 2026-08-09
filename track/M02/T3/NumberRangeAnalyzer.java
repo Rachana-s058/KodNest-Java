@@ -19,18 +19,11 @@ public class Main {
             } else {
                 oddCount++;
             }
+            current++;
         }
+        System.out.println("Even sum: " + evenSum);
+        System.out.println("Odd count: " + oddCount);
 
-        current++;
+        scanner.close();
     }
-
-    System.out.println (
-
-    "Even sum: " + evenSum);
-    System.out.println (
-
-    "Odd count: " + oddCount);
-
-    scanner.close ();
-}
 }
