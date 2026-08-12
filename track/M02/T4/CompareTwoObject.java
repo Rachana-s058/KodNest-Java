@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-class Student {
+class CompareTwoObjects {
 
     // Declare id, name and javaScore
     int id;
@@ -12,13 +12,13 @@ class Student {
         Scanner scanner = new Scanner(System.in);
 
         // Create and populate the first Student object
-        Student s1 = new Student();
+        CompareTwoObjects s1 = new CompareTwoObjects();
         s1.id = scanner.nextInt();
         s1.name = scanner.next();
         s1.javaScore = scanner.nextInt();
 
         // Create and populate the second Student object
-        Student s2 = new Student();
+        CompareTwoObjects s2 = new CompareTwoObjects();
         s2.id = scanner.nextInt();
         s2.name = scanner.next();
         s2.javaScore = scanner.nextInt();
