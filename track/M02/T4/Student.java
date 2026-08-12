@@ -1,7 +1,5 @@
 
-import java.util.Scanner;
-
-public class ObjectClass {
+public class Student {
 
     int roll;
     String name;
@@ -14,9 +12,6 @@ public class ObjectClass {
     void sleep() {
         System.out.println("Sleeping");
     }
-}
-
-class StudentApplication {
 
     public static void main(String[] args) {
         Student s1 = new Student();
@@ -24,8 +19,8 @@ class StudentApplication {
         s1.name = "Rachaba";
         s1.height = 5.5;
         System.out.println(s1.roll);
-        System.out.println("s1.name");
-        System.out.println("s1.height");
+        System.out.println(s1.name);
+        System.out.println(s1.height);
 
         s1.run();
         s1.sleep();
