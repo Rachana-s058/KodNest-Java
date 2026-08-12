@@ -1,13 +1,13 @@
+
 import java.util.Scanner;
 
 class LearnerProfileObject {
+
     // Declare id, name and javaScore
     int id;
     String name;
     int javaScore;
-}
 
-public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -18,7 +18,7 @@ public class Main {
         l1.javaScore = scanner.nextInt();
 
         // Create and populate the second Learner object
-        Learner l2 = new Learner();
+        LearnerProfileObject l2 = new LearnerProfileObject();
         l2.id = scanner.nextInt();
         l2.name = scanner.next();
         l2.javaScore = scanner.nextInt();
