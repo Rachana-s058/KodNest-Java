@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class MethodTypesExample {
+
     void sayHello() {
         System.out.println("Hello from a method!");
     }
@@ -17,9 +19,7 @@ public class MethodTypesExample {
         // Return the sum
         return first + second;
     }
-}
 
-public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
