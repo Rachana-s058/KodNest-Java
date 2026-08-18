@@ -1,14 +1,12 @@
 
-import java.util.Scanner;
+class Array {
 
-public class ArraySearch {
-
-    void search(int ref[], int key) {
-        boolean found = false;
-        for (int i = 0; i < ref.length; i++) {
-            if (ref[i] == key) {
-                System.out.println("Element found at index: " + i);
-                found = true;
+    void search(int arr[], int key) {
+        boolean found = true;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == key) {
+                System.out.println("Element found at index : " + i);
+                found = false;
                 break;
             }
         }
@@ -18,9 +16,8 @@ public class ArraySearch {
     }
 
     public static void main(String[] args) {
-        int arr[] = {10, 20, 30, 40, 50};
-        ArraySearch as = new ArraySearch();
-        as.search(arr, 30);
+        int[] a = {4, 5, 6, 1, 9};
+        Array as = new Array();
+        as.search(a, 1);
     }
 }
-
