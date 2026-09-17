@@ -13,10 +13,7 @@ class StaticandVoid {
         StaticandVoid d3 = new StaticandVoid();
         StaticandVoid d4 = new StaticandVoid();
 
-        System.out.println("Num of Objects : " Demo.count
-
-
-    );
+        System.out.println("Num of Objects : " + count);
 
     }
 }
