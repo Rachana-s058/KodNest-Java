@@ -1,0 +1,5 @@
+oublic
+
+class Animal {
+
+}
